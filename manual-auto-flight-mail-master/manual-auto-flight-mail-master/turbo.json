@@ -1,0 +1,11 @@
+{
+  "pipeline": {
+    "build": {
+      "outputs": ["dist/**", ".next/**"],
+      "dependsOn": ["^build"]
+    },
+    "lint": {},
+    "test": {},
+    "type-check": {}
+  }
+}
